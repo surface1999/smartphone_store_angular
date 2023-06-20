@@ -1,0 +1,85 @@
+<div class="navbar-container bg-danger text-light">
+    <div class="navbar">
+        <div class="navbar-title">
+            <a href="/" class="header-logo">
+                <img src="../../assets/photos/logo.jpg" alt="logo">
+                &nbsp;
+                <p>Trương Minh Đức</p>
+            </a>
+            <form action="/search">
+                <div class="search">
+                    <input type="text" #searchKey name="search-key" id="" (change)="seachProductOnChange($event)" placeholder="Input content to search">
+                    <button type="submit" (click)="seachProduct(searchKey.value)"><fa-icon [icon]="faSearch"></fa-icon></button>
+                </div>
+            </form> 
+            <div class="temp"><a href="#"><fa-icon [icon]="faCartShopping"></fa-icon>&nbsp;Giỏ hàng</a></div>
+            <div class="temp"><a href="#">24 giờ công nghệ</a></div>
+            <div class="temp"><a href="#">Hỏi đáp</a></div>
+            <div class="temp"><a href="#">Game app</a></div>
+        </div>
+        <div class="navbar-main">
+            <ul class="main-menu">
+                <li>
+                    <a href="http://">
+                        <fa-icon [icon]="faMobile" class="me-2"></fa-icon>
+                        <span>Smartphone</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://">
+                        <fa-icon [icon]="faLaptop" class="me-2"></fa-icon>
+                        <span>Laptop</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://">
+                        <fa-icon [icon]="faTablet" class="me-2"></fa-icon>
+                        <span>Tablet</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://">
+                        <fa-icon [icon]="faMouse" class="me-2"></fa-icon>
+                        <span>Accessory</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://">
+                        <fa-icon [icon]="faUserClock" class="me-2"></fa-icon>
+                        <span>Smartwatch</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://">
+                        <fa-icon [icon]="faClock" class="me-2"></fa-icon>
+                        <span>Clock</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://">
+                        <fa-icon [icon]="faMobile" class="me-2"></fa-icon>
+                        <span>Old thing</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://">
+                        <fa-icon [icon]="faComputer" class="me-2"></fa-icon>
+                        <span>PC</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://">
+                        <fa-icon [icon]="faSimCard" class="me-2"></fa-icon>
+                        <span>Sim card</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="http://">
+                        <fa-icon [icon]="faService" class="me-2"></fa-icon>
+                        <span>Service</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

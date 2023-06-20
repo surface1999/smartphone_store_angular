@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.copyright {
+    width: 100%;
+    background-color: rgba(212, 214, 208, 0.753);
+}
+.copyright section{
+    width: 100%;
+    max-width: 1220px; 
+    margin: auto; 
+    font-size: 11px;
+}
+
+.footer-content{
+    width: 100%;
+    max-width: 1220px; 
+    margin: auto; 
+    font-size: 12px;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.footer-content .f-listmenu a{
+    color: black;
+}
+.footer-content a .tel{
+    font-size: larger;
+}
